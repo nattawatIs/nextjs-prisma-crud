@@ -1,3 +1,8 @@
+npm i
+
 docker-compose up -d
 
-prisma
+npx prisma migrate dev  --name ""
+
+npm run dev
+
